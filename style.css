@@ -10,10 +10,16 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 2rem;
     height: 100vh;
     font-family: 'Consolas', monospace;
 
 
+}
+
+body>img {
+    width: 100%;
+    max-width: 900px;
 }
 
 .cssbuttons-io {
@@ -74,7 +80,7 @@ body {
 
 .modal {
     display: none;
-    background-color: #1e1e1e56;
+    background-color: #1e1e1e80;
     backdrop-filter: blur(8px);
     position: absolute;
     top: 0;
@@ -93,4 +99,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
 }
